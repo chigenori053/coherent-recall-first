@@ -1,0 +1,379 @@
+[
+  {
+    "events": [
+      {
+        "details": {
+          "content": "3x + 5x を計算せよ"
+        },
+        "event_type": "INPUT_RECEIVED",
+        "memory_layer": "InputSubsystem",
+        "metrics": {},
+        "timestamp": 1768486441.469215
+      },
+      {
+        "details": {
+          "vector_norm": 0.9999999993853198
+        },
+        "event_type": "SEMANTIC_PROJECTED",
+        "memory_layer": "Pipeline",
+        "metrics": {},
+        "timestamp": 1768486441.469248
+      },
+      {
+        "details": {},
+        "event_type": "QUERY_INJECTED",
+        "memory_layer": "MS-L1",
+        "metrics": {},
+        "timestamp": 1768486441.469253
+      },
+      {
+        "details": {},
+        "event_type": "DHM_RESONANCE_FORMED",
+        "memory_layer": "MS-L1",
+        "metrics": {
+          "dhm_resonance": 0.0,
+          "dhm_top_k": [
+            {
+              "id": "{'session_id': '11c97cf0-ee6b-457b-a270-9e45ba014d8e'}",
+              "score": 1.0
+            }
+          ],
+          "shm_resonance": 0.9055135170106242,
+          "shm_top_k": [
+            {
+              "id": "concept_math",
+              "score": 0.9055135170106242
+            }
+          ],
+          "total_resonance": 0.9055135170106242
+        },
+        "timestamp": 1768486441.469274
+      },
+      {
+        "details": {},
+        "event_type": "STATIC_FILTER_APPLIED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "admissible": true
+        },
+        "timestamp": 1768486441.469276
+      },
+      {
+        "details": {},
+        "event_type": "DECISION_STATE_COMPUTED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "ambiguity": 0.29448648298937585,
+          "entropy": 0.09448648298937579,
+          "margin": 0.7055135170106241,
+          "resonance": 0.9055135170106242
+        },
+        "timestamp": 1768486441.469279
+      },
+      {
+        "details": {},
+        "event_type": "CAUSAL_GATE_EVALUATED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "action": "PROMOTE"
+        },
+        "timestamp": 1768486441.469292
+      },
+      {
+        "details": {},
+        "event_type": "ACTION_SELECTED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "action": "PROMOTE"
+        },
+        "timestamp": 1768486441.469293
+      },
+      {
+        "details": {},
+        "event_type": "EXPERIENCE_UPDATE",
+        "memory_layer": "MS-L3",
+        "metrics": {
+          "exp_id": "0cd366be-c541-421f-9842-72da147be38b",
+          "result": "Recall: Retrieved (Simulated)",
+          "source": "Holographic (Recall)",
+          "written": true
+        },
+        "timestamp": 1768486441.469312
+      }
+    ],
+    "execution_result": "Recall: Retrieved (Simulated)",
+    "experience_id": "0cd366be-c541-421f-9842-72da147be38b",
+    "experience_written": true,
+    "final_decision": "PROMOTE",
+    "inference_source": "Holographic (Recall)",
+    "session_id": "11c97cf0-ee6b-457b-a270-9e45ba014d8e",
+    "task": {
+      "input_source": {
+        "content": "3x + 5x を計算せよ",
+        "file_path": null,
+        "file_type": null,
+        "type": "text"
+      },
+      "task_id": "96712d47-53fc-4a79-bf71-4d866e5c4464",
+      "timestamp": "2026-01-15T23:14:01.469213"
+    }
+  },
+  {
+    "events": [
+      {
+        "details": {
+          "content": "いい感じに解いて"
+        },
+        "event_type": "INPUT_RECEIVED",
+        "memory_layer": "InputSubsystem",
+        "metrics": {},
+        "timestamp": 1768486441.469482
+      },
+      {
+        "details": {
+          "vector_norm": 0.9999999990187612
+        },
+        "event_type": "SEMANTIC_PROJECTED",
+        "memory_layer": "Pipeline",
+        "metrics": {},
+        "timestamp": 1768486441.469497
+      },
+      {
+        "details": {},
+        "event_type": "QUERY_INJECTED",
+        "memory_layer": "MS-L1",
+        "metrics": {},
+        "timestamp": 1768486441.4695
+      },
+      {
+        "details": {},
+        "event_type": "DHM_RESONANCE_FORMED",
+        "memory_layer": "MS-L1",
+        "metrics": {
+          "dhm_resonance": 0.039467625670508426,
+          "dhm_top_k": [
+            {
+              "id": "{'session_id': '5104df60-da26-449c-975a-8063489b4a7d'}",
+              "score": 1.0000000000000002
+            },
+            {
+              "id": "{'session_id': '11c97cf0-ee6b-457b-a270-9e45ba014d8e'}",
+              "score": 0.039467625670508426
+            }
+          ],
+          "shm_resonance": 0.04558531468917858,
+          "shm_top_k": [
+            {
+              "id": "concept_math",
+              "score": 0.04558531468917858
+            },
+            {
+              "id": "21725d04-63c9-48fc-b907-aa251aaed72b",
+              "score": 0.039467625670508426
+            }
+          ],
+          "total_resonance": 0.04558531468917858
+        },
+        "timestamp": 1768486441.469518
+      },
+      {
+        "details": {},
+        "event_type": "STATIC_FILTER_APPLIED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "admissible": true
+        },
+        "timestamp": 1768486441.46952
+      },
+      {
+        "details": {},
+        "event_type": "DECISION_STATE_COMPUTED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "ambiguity": 1.0,
+          "entropy": 0.9544146853108214,
+          "margin": 0.0,
+          "resonance": 0.04558531468917858
+        },
+        "timestamp": 1768486441.469522
+      },
+      {
+        "details": {},
+        "event_type": "CAUSAL_GATE_EVALUATED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "action": "RETAIN"
+        },
+        "timestamp": 1768486441.469528
+      },
+      {
+        "details": {},
+        "event_type": "ACTION_SELECTED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "action": "RETAIN"
+        },
+        "timestamp": 1768486441.469528
+      },
+      {
+        "details": {},
+        "event_type": "EXPERIENCE_UPDATE",
+        "memory_layer": "MS-L3",
+        "metrics": {
+          "exp_id": "29ccdda4-b85e-4c67-856e-0f6621403598",
+          "result": "いい感じに解いて",
+          "source": "Logic (Computation)",
+          "written": true
+        },
+        "timestamp": 1768486441.469547
+      }
+    ],
+    "execution_result": "いい感じに解いて",
+    "experience_id": "29ccdda4-b85e-4c67-856e-0f6621403598",
+    "experience_written": true,
+    "final_decision": "RETAIN",
+    "inference_source": "Logic (Computation)",
+    "session_id": "5104df60-da26-449c-975a-8063489b4a7d",
+    "task": {
+      "input_source": {
+        "content": "いい感じに解いて",
+        "file_path": null,
+        "file_type": null,
+        "type": "text"
+      },
+      "task_id": "d3bbb919-f43e-48c7-b968-afd227733da1",
+      "timestamp": "2026-01-15T23:14:01.469480"
+    }
+  },
+  {
+    "events": [
+      {
+        "details": {
+          "content": "7x + x をまとめよ"
+        },
+        "event_type": "INPUT_RECEIVED",
+        "memory_layer": "InputSubsystem",
+        "metrics": {},
+        "timestamp": 1768486441.46966
+      },
+      {
+        "details": {
+          "vector_norm": 0.9999999990668753
+        },
+        "event_type": "SEMANTIC_PROJECTED",
+        "memory_layer": "Pipeline",
+        "metrics": {},
+        "timestamp": 1768486441.469671
+      },
+      {
+        "details": {},
+        "event_type": "QUERY_INJECTED",
+        "memory_layer": "MS-L1",
+        "metrics": {},
+        "timestamp": 1768486441.469674
+      },
+      {
+        "details": {},
+        "event_type": "DHM_RESONANCE_FORMED",
+        "memory_layer": "MS-L1",
+        "metrics": {
+          "dhm_resonance": 0.9447754122273379,
+          "dhm_top_k": [
+            {
+              "id": "{'session_id': '29d7aeb4-460d-4c96-8f9c-ed5c4c2c9462'}",
+              "score": 1.0
+            },
+            {
+              "id": "{'session_id': '11c97cf0-ee6b-457b-a270-9e45ba014d8e'}",
+              "score": 0.9447754122273379
+            },
+            {
+              "id": "{'session_id': '5104df60-da26-449c-975a-8063489b4a7d'}",
+              "score": 0.03801070933635336
+            }
+          ],
+          "shm_resonance": 0.9908097666635257,
+          "shm_top_k": [
+            {
+              "id": "concept_math",
+              "score": 0.9908097666635257
+            },
+            {
+              "id": "21725d04-63c9-48fc-b907-aa251aaed72b",
+              "score": 0.9447754122273379
+            }
+          ],
+          "total_resonance": 0.9908097666635257
+        },
+        "timestamp": 1768486441.469692
+      },
+      {
+        "details": {},
+        "event_type": "STATIC_FILTER_APPLIED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "admissible": true
+        },
+        "timestamp": 1768486441.469694
+      },
+      {
+        "details": {},
+        "event_type": "DECISION_STATE_COMPUTED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "ambiguity": 0.20919023333647435,
+          "entropy": 0.009190233336474285,
+          "margin": 0.7908097666635256,
+          "resonance": 0.9908097666635257
+        },
+        "timestamp": 1768486441.469695
+      },
+      {
+        "details": {},
+        "event_type": "CAUSAL_GATE_EVALUATED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "action": "PROMOTE"
+        },
+        "timestamp": 1768486441.4697
+      },
+      {
+        "details": {},
+        "event_type": "ACTION_SELECTED",
+        "memory_layer": "MS-L2",
+        "metrics": {
+          "action": "PROMOTE"
+        },
+        "timestamp": 1768486441.4697
+      },
+      {
+        "details": {},
+        "event_type": "EXPERIENCE_UPDATE",
+        "memory_layer": "MS-L3",
+        "metrics": {
+          "exp_id": "e1a025db-cf60-48dd-b5e7-34fad1015598",
+          "result": "Recall: Retrieved (Simulated)",
+          "source": "Holographic (Recall)",
+          "written": true
+        },
+        "timestamp": 1768486441.469714
+      }
+    ],
+    "execution_result": "Recall: Retrieved (Simulated)",
+    "experience_id": "e1a025db-cf60-48dd-b5e7-34fad1015598",
+    "experience_written": true,
+    "final_decision": "PROMOTE",
+    "inference_source": "Holographic (Recall)",
+    "session_id": "29d7aeb4-460d-4c96-8f9c-ed5c4c2c9462",
+    "task": {
+      "input_source": {
+        "content": "7x + x をまとめよ",
+        "file_path": null,
+        "file_type": null,
+        "type": "text"
+      },
+      "task_id": "aab8f0c1-f719-451a-99c0-7e7e8894b8b4",
+      "timestamp": "2026-01-15T23:14:01.469659"
+    }
+  }
+]
