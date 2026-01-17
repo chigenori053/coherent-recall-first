@@ -1,6 +1,6 @@
 # Verification & Learning Test Report v1.1
 
-**Date:** 2026-01-15 23:14:01
+**Date:** 2026-01-17 14:42:41
 **Executor:** Automated Test Script
 
 ## Summary
@@ -9,19 +9,19 @@ This report documents the execution of the Verification & Learning Test v1.1.
 ## Test Results
 | ID | Input | Decision | Result | Details |
 |---|---|---|---|---|
-| T1 | 3x + 5x を計算せよ | Action.PROMOTE | PASS | {'prob': 0.49198471830418306} |
-| T2 | 3x と 5x をまとめて | Action.PROMOTE | PASS | {'resonance': 0.9979188208210152} |
+| T1 | 3x + 5x を計算せよ | Action.PROMOTE | PASS | {'prob': 0.5051624023152613} |
+| T2 | 3x と 5x をまとめて | Action.PROMOTE | PASS | {'resonance': 0.9969264693358907} |
 | T3 | まず両辺から3を引き、その後2で割れ | Action.PROMOTE | PASS | {} |
 | T4 | いい感じに解いて | Action.SUPPRESS | PASS | {'persisted': True} |
 | T5 | この式を詩的に説明して | Action.SUPPRESS | PASS | {'persisted': True} |
 | T6 | 未定義の演算Zを実行せよ | Action.SUPPRESS | PASS | {'persisted': True} |
-| T7 | 7x + x をまとめよ | Action.PROMOTE | PASS | {'resonance': 0.9423472071815223, 'duration': 3.1948089599609375e-05} |
+| T7 | 7x + x をまとめよ | Action.PROMOTE | PASS | {'resonance': 0.9433073440539985, 'duration': 2.7894973754882812e-05} |
 
 ## Raw Logs
 ```json
 [
   {
-    "decision_state": "DecisionState(resonance_score=0.49198471830418306, margin=0.49198471830418306, repetition_count=1, entropy_estimate=0.508015281695817, memory_origin='Dynamic', historical_conflict_rate=0.0)",
+    "decision_state": "DecisionState(resonance_score=0.5051624023152613, margin=0.5051624023152613, repetition_count=1, entropy_estimate=0.4948375976847387, memory_origin='Dynamic', historical_conflict_rate=0.0)",
     "action": "Action.PROMOTE",
     "metadata": {
       "id": "T1_REQ",
@@ -30,7 +30,7 @@ This report documents the execution of the Verification & Learning Test v1.1.
     }
   },
   {
-    "decision_state": "DecisionState(resonance_score=0.9979188208210152, margin=0.0, repetition_count=1, entropy_estimate=0.00208117917898476, memory_origin='Dynamic', historical_conflict_rate=0.0)",
+    "decision_state": "DecisionState(resonance_score=0.9969264693358907, margin=0.0, repetition_count=1, entropy_estimate=0.003073530664109314, memory_origin='Dynamic', historical_conflict_rate=0.0)",
     "action": "Action.PROMOTE",
     "metadata": {
       "id": "T2_REQ",
@@ -38,7 +38,7 @@ This report documents the execution of the Verification & Learning Test v1.1.
     }
   },
   {
-    "decision_state": "DecisionState(resonance_score=0.6211832764183152, margin=0.3067696962095472, repetition_count=1, entropy_estimate=0.37881672358168483, memory_origin='Dynamic', historical_conflict_rate=0.0)",
+    "decision_state": "DecisionState(resonance_score=0.6190443397475909, margin=0.3240569233577054, repetition_count=1, entropy_estimate=0.3809556602524091, memory_origin='Dynamic', historical_conflict_rate=0.0)",
     "action": "Action.PROMOTE",
     "metadata": {
       "id": "T3_REQ",
@@ -47,7 +47,7 @@ This report documents the execution of the Verification & Learning Test v1.1.
     }
   },
   {
-    "decision_state": "DecisionState(resonance_score=0.18827019717520774, margin=0.07778167709957713, repetition_count=1, entropy_estimate=0.8117298028247922, memory_origin='Dynamic', historical_conflict_rate=0.0)",
+    "decision_state": "DecisionState(resonance_score=0.1796343756264937, margin=0.061601483498742546, repetition_count=1, entropy_estimate=0.8203656243735062, memory_origin='Dynamic', historical_conflict_rate=0.0)",
     "action": "Action.SUPPRESS",
     "metadata": {
       "id": "T4_REQ",
@@ -55,7 +55,7 @@ This report documents the execution of the Verification & Learning Test v1.1.
     }
   },
   {
-    "decision_state": "DecisionState(resonance_score=0.03246989440346057, margin=0.0, repetition_count=1, entropy_estimate=0.9675301055965394, memory_origin='Dynamic', historical_conflict_rate=0.0)",
+    "decision_state": "DecisionState(resonance_score=0.02151685552435009, margin=0.0, repetition_count=1, entropy_estimate=0.9784831444756499, memory_origin='Dynamic', historical_conflict_rate=0.0)",
     "action": "Action.SUPPRESS",
     "metadata": {
       "id": "T5_REQ",
@@ -63,7 +63,7 @@ This report documents the execution of the Verification & Learning Test v1.1.
     }
   },
   {
-    "decision_state": "DecisionState(resonance_score=0.01433863113219872, margin=0.0027094212889668835, repetition_count=1, entropy_estimate=0.9856613688678013, memory_origin='Dynamic', historical_conflict_rate=0.0)",
+    "decision_state": "DecisionState(resonance_score=0.03236214094464317, margin=0.007633274970063747, repetition_count=1, entropy_estimate=0.9676378590553568, memory_origin='Dynamic', historical_conflict_rate=0.0)",
     "action": "Action.SUPPRESS",
     "metadata": {
       "id": "T6_REQ",
@@ -71,7 +71,7 @@ This report documents the execution of the Verification & Learning Test v1.1.
     }
   },
   {
-    "decision_state": "DecisionState(resonance_score=0.9423472071815223, margin=0.0, repetition_count=1, entropy_estimate=0.05765279281847768, memory_origin='Dynamic', historical_conflict_rate=0.0)",
+    "decision_state": "DecisionState(resonance_score=0.9433073440539985, margin=0.0, repetition_count=1, entropy_estimate=0.05669265594600148, memory_origin='Dynamic', historical_conflict_rate=0.0)",
     "action": "Action.PROMOTE",
     "metadata": {
       "id": "T7_REQ"
