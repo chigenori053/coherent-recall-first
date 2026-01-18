@@ -8,7 +8,7 @@
         "event_type": "INPUT_RECEIVED",
         "memory_layer": "InputSubsystem",
         "metrics": {},
-        "timestamp": 1768628561.134827
+        "timestamp": 1768744946.263271
       },
       {
         "details": {
@@ -17,14 +17,14 @@
         "event_type": "SEMANTIC_PROJECTED",
         "memory_layer": "Pipeline",
         "metrics": {},
-        "timestamp": 1768628561.135063
+        "timestamp": 1768744946.2633
       },
       {
         "details": {},
         "event_type": "QUERY_INJECTED",
         "memory_layer": "MS-L1",
         "metrics": {},
-        "timestamp": 1768628561.135068
+        "timestamp": 1768744946.263304
       },
       {
         "details": {},
@@ -34,7 +34,7 @@
           "dhm_resonance": 0.0,
           "dhm_top_k": [
             {
-              "id": "{'session_id': 'aa778446-29bc-4b4a-8361-0c573618cd9a'}",
+              "id": "{'session_id': 'd6c9795a-5fbe-4dcf-9edf-5b7b930b4b8d'}",
               "score": 1.0
             }
           ],
@@ -47,7 +47,7 @@
           ],
           "total_resonance": 0.9055135170106242
         },
-        "timestamp": 1768628561.135091
+        "timestamp": 1768744946.263323
       },
       {
         "details": {},
@@ -56,7 +56,7 @@
         "metrics": {
           "admissible": true
         },
-        "timestamp": 1768628561.135093
+        "timestamp": 1768744946.263324
       },
       {
         "details": {},
@@ -68,7 +68,7 @@
           "margin": 0.7055135170106241,
           "resonance": 0.9055135170106242
         },
-        "timestamp": 1768628561.135096
+        "timestamp": 1768744946.263327
       },
       {
         "details": {},
@@ -77,7 +77,7 @@
         "metrics": {
           "action": "PROMOTE"
         },
-        "timestamp": 1768628561.135107
+        "timestamp": 1768744946.263336
       },
       {
         "details": {},
@@ -86,27 +86,27 @@
         "metrics": {
           "action": "PROMOTE"
         },
-        "timestamp": 1768628561.135108
+        "timestamp": 1768744946.263337
       },
       {
         "details": {},
         "event_type": "EXPERIENCE_UPDATE",
         "memory_layer": "MS-L3",
         "metrics": {
-          "exp_id": "3eb3df07-6bba-4e16-8074-f862abbbf46c",
+          "exp_id": "ccbd6c84-8ed0-4959-8400-48b272121260",
           "result": "Recall: Retrieved (Simulated)",
           "source": "Holographic (Recall)",
           "written": true
         },
-        "timestamp": 1768628561.135126
+        "timestamp": 1768744946.263355
       }
     ],
     "execution_result": "Recall: Retrieved (Simulated)",
-    "experience_id": "3eb3df07-6bba-4e16-8074-f862abbbf46c",
+    "experience_id": "ccbd6c84-8ed0-4959-8400-48b272121260",
     "experience_written": true,
     "final_decision": "PROMOTE",
     "inference_source": "Holographic (Recall)",
-    "session_id": "aa778446-29bc-4b4a-8361-0c573618cd9a",
+    "session_id": "d6c9795a-5fbe-4dcf-9edf-5b7b930b4b8d",
     "task": {
       "input_source": {
         "content": "3x + 5x を計算せよ",
@@ -114,8 +114,8 @@
         "file_type": null,
         "type": "text"
       },
-      "task_id": "5c2505cf-77f7-4b48-b703-cace4b2f6af0",
-      "timestamp": "2026-01-17T14:42:41.134824"
+      "task_id": "755f0668-ac1a-4681-89e2-5e21a96932cc",
+      "timestamp": "2026-01-18T23:02:26.263269"
     }
   },
   {
@@ -127,7 +127,7 @@
         "event_type": "INPUT_RECEIVED",
         "memory_layer": "InputSubsystem",
         "metrics": {},
-        "timestamp": 1768628561.135297
+        "timestamp": 1768744946.263501
       },
       {
         "details": {
@@ -136,14 +136,14 @@
         "event_type": "SEMANTIC_PROJECTED",
         "memory_layer": "Pipeline",
         "metrics": {},
-        "timestamp": 1768628561.135312
+        "timestamp": 1768744946.263514
       },
       {
         "details": {},
         "event_type": "QUERY_INJECTED",
         "memory_layer": "MS-L1",
         "metrics": {},
-        "timestamp": 1768628561.135316
+        "timestamp": 1768744946.263517
       },
       {
         "details": {},
@@ -153,11 +153,11 @@
           "dhm_resonance": 0.039467625670508426,
           "dhm_top_k": [
             {
-              "id": "{'session_id': 'f291afcd-746f-4a3d-a34b-98e5c362c13f'}",
+              "id": "{'session_id': '55196967-b7a1-4da1-b3a0-1cfa8aaf0e45'}",
               "score": 1.0000000000000002
             },
             {
-              "id": "{'session_id': 'aa778446-29bc-4b4a-8361-0c573618cd9a'}",
+              "id": "{'session_id': 'd6c9795a-5fbe-4dcf-9edf-5b7b930b4b8d'}",
               "score": 0.039467625670508426
             }
           ],
@@ -168,13 +168,13 @@
               "score": 0.04558531468917858
             },
             {
-              "id": "51287be0-674f-42b9-abbf-846a909a7447",
+              "id": "e2cf4e49-e0b1-454c-ac18-9e0472785fe0",
               "score": 0.039467625670508426
             }
           ],
           "total_resonance": 0.04558531468917858
         },
-        "timestamp": 1768628561.135337
+        "timestamp": 1768744946.263535
       },
       {
         "details": {},
@@ -183,7 +183,7 @@
         "metrics": {
           "admissible": true
         },
-        "timestamp": 1768628561.135338
+        "timestamp": 1768744946.263536
       },
       {
         "details": {},
@@ -195,7 +195,7 @@
           "margin": 0.0,
           "resonance": 0.04558531468917858
         },
-        "timestamp": 1768628561.135341
+        "timestamp": 1768744946.263538
       },
       {
         "details": {},
@@ -204,7 +204,7 @@
         "metrics": {
           "action": "RETAIN"
         },
-        "timestamp": 1768628561.135347
+        "timestamp": 1768744946.263544
       },
       {
         "details": {},
@@ -213,27 +213,27 @@
         "metrics": {
           "action": "RETAIN"
         },
-        "timestamp": 1768628561.135348
+        "timestamp": 1768744946.263545
       },
       {
         "details": {},
         "event_type": "EXPERIENCE_UPDATE",
         "memory_layer": "MS-L3",
         "metrics": {
-          "exp_id": "003c7f12-e4c0-4083-9e71-72cce717bf4e",
+          "exp_id": "268f6077-1e66-49eb-892f-603e8205130e",
           "result": "いい感じに解いて",
           "source": "Logic (Computation)",
           "written": true
         },
-        "timestamp": 1768628561.135977
+        "timestamp": 1768744946.263607
       }
     ],
     "execution_result": "いい感じに解いて",
-    "experience_id": "003c7f12-e4c0-4083-9e71-72cce717bf4e",
+    "experience_id": "268f6077-1e66-49eb-892f-603e8205130e",
     "experience_written": true,
     "final_decision": "RETAIN",
     "inference_source": "Logic (Computation)",
-    "session_id": "f291afcd-746f-4a3d-a34b-98e5c362c13f",
+    "session_id": "55196967-b7a1-4da1-b3a0-1cfa8aaf0e45",
     "task": {
       "input_source": {
         "content": "いい感じに解いて",
@@ -241,8 +241,8 @@
         "file_type": null,
         "type": "text"
       },
-      "task_id": "dc0721d9-7abd-464a-9d1f-17ec02d61ca9",
-      "timestamp": "2026-01-17T14:42:41.135295"
+      "task_id": "8dbc31a3-3d4f-4807-b76f-2daebc5e1c60",
+      "timestamp": "2026-01-18T23:02:26.263500"
     }
   },
   {
@@ -254,7 +254,7 @@
         "event_type": "INPUT_RECEIVED",
         "memory_layer": "InputSubsystem",
         "metrics": {},
-        "timestamp": 1768628561.136122
+        "timestamp": 1768744946.263723
       },
       {
         "details": {
@@ -263,14 +263,14 @@
         "event_type": "SEMANTIC_PROJECTED",
         "memory_layer": "Pipeline",
         "metrics": {},
-        "timestamp": 1768628561.136142
+        "timestamp": 1768744946.263734
       },
       {
         "details": {},
         "event_type": "QUERY_INJECTED",
         "memory_layer": "MS-L1",
         "metrics": {},
-        "timestamp": 1768628561.136145
+        "timestamp": 1768744946.263736
       },
       {
         "details": {},
@@ -280,15 +280,15 @@
           "dhm_resonance": 0.9447754122273379,
           "dhm_top_k": [
             {
-              "id": "{'session_id': '891cc22c-de4e-4074-8cc1-0ac260315d4b'}",
+              "id": "{'session_id': '23d3bd97-1520-4bd6-b5cb-6b6fed51312b'}",
               "score": 1.0
             },
             {
-              "id": "{'session_id': 'aa778446-29bc-4b4a-8361-0c573618cd9a'}",
+              "id": "{'session_id': 'd6c9795a-5fbe-4dcf-9edf-5b7b930b4b8d'}",
               "score": 0.9447754122273379
             },
             {
-              "id": "{'session_id': 'f291afcd-746f-4a3d-a34b-98e5c362c13f'}",
+              "id": "{'session_id': '55196967-b7a1-4da1-b3a0-1cfa8aaf0e45'}",
               "score": 0.03801070933635336
             }
           ],
@@ -299,13 +299,13 @@
               "score": 0.9908097666635257
             },
             {
-              "id": "51287be0-674f-42b9-abbf-846a909a7447",
+              "id": "e2cf4e49-e0b1-454c-ac18-9e0472785fe0",
               "score": 0.9447754122273379
             }
           ],
           "total_resonance": 0.9908097666635257
         },
-        "timestamp": 1768628561.136166
+        "timestamp": 1768744946.263754
       },
       {
         "details": {},
@@ -314,7 +314,7 @@
         "metrics": {
           "admissible": true
         },
-        "timestamp": 1768628561.136168
+        "timestamp": 1768744946.263755
       },
       {
         "details": {},
@@ -326,7 +326,7 @@
           "margin": 0.7908097666635256,
           "resonance": 0.9908097666635257
         },
-        "timestamp": 1768628561.13617
+        "timestamp": 1768744946.263756
       },
       {
         "details": {},
@@ -335,7 +335,7 @@
         "metrics": {
           "action": "PROMOTE"
         },
-        "timestamp": 1768628561.136176
+        "timestamp": 1768744946.263761
       },
       {
         "details": {},
@@ -344,27 +344,27 @@
         "metrics": {
           "action": "PROMOTE"
         },
-        "timestamp": 1768628561.136177
+        "timestamp": 1768744946.263762
       },
       {
         "details": {},
         "event_type": "EXPERIENCE_UPDATE",
         "memory_layer": "MS-L3",
         "metrics": {
-          "exp_id": "0936ff46-b9b7-4777-8b78-1cff2cdc5a53",
+          "exp_id": "b058af06-28aa-4f47-a5ca-aac94ae7ef63",
           "result": "Recall: Retrieved (Simulated)",
           "source": "Holographic (Recall)",
           "written": true
         },
-        "timestamp": 1768628561.136195
+        "timestamp": 1768744946.263775
       }
     ],
     "execution_result": "Recall: Retrieved (Simulated)",
-    "experience_id": "0936ff46-b9b7-4777-8b78-1cff2cdc5a53",
+    "experience_id": "b058af06-28aa-4f47-a5ca-aac94ae7ef63",
     "experience_written": true,
     "final_decision": "PROMOTE",
     "inference_source": "Holographic (Recall)",
-    "session_id": "891cc22c-de4e-4074-8cc1-0ac260315d4b",
+    "session_id": "23d3bd97-1520-4bd6-b5cb-6b6fed51312b",
     "task": {
       "input_source": {
         "content": "7x + x をまとめよ",
@@ -372,8 +372,8 @@
         "file_type": null,
         "type": "text"
       },
-      "task_id": "26ccc005-a5e3-42be-b8e7-a3b709c72be1",
-      "timestamp": "2026-01-17T14:42:41.136121"
+      "task_id": "aabf7799-0751-403a-8763-fdae067073e5",
+      "timestamp": "2026-01-18T23:02:26.263722"
     }
   }
 ]
